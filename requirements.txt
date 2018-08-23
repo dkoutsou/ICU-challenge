@@ -9,7 +9,6 @@ bz2file==0.98
 certifi==2018.4.16
 cffi==1.11.5
 chardet==3.0.4
-conda==4.5.5
 cycler==0.10.0
 decorator==4.3.0
 docutils==0.14
