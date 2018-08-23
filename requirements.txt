@@ -59,7 +59,6 @@ PyYAML==3.13
 pyzmq==17.0.0
 qtconsole==4.3.1
 requests==2.18.4
-ruamel-yaml==0.15.37
 s3transfer==0.1.13
 scikit-learn==0.19.1
 scipy==1.1.0
