@@ -1,7 +1,6 @@
 import matplotlib
 matplotlib.use('TkAgg')
 import pickle
-import heapq
 import numpy as np
 import warnings
 import argparse
@@ -9,10 +8,8 @@ from matplotlib import pyplot
 from xgboost import XGBClassifier
 from sklearn.metrics import (roc_auc_score, precision_recall_curve, roc_curve,
         auc)
-from sklearn.model_selection import train_test_split
-from biosppy.signals.tools import signal_stats
-from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.model_selection import (train_test_split, GridSearchCV,
+        StratifiedShuffleSplit)
 from prettytable import PrettyTable
 
 class ICUChallenge:
