@@ -105,7 +105,7 @@ class ICUChallenge:
             if largest_index >= 0  and largest_index < 16:
                 feature = "Heart rate"
             elif largest_index >= 16  and largest_index < 32:
-                feature = "Respitory rate"
+                feature = "Respiratory rate"
             elif largest_index >= 32  and largest_index < 48:
                 feature = "Blood pressure"
             else:
